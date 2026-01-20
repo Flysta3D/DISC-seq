@@ -14,8 +14,8 @@ This repo contains essential scripts used for implementation of DISC-seq as well
 * **Supplement** including example files such as _ANXV barcode reference_, _CASB barcode reference_, _config file example_ and _cellbarcode whitelist reference_.
 
 ## Pipeline requires these data:
-* ANXV (ANX5-labeled) library​ for ANXV label counting.
-* CASB library​ for sample demultiplexing.
+* DISC-seq library​ for ANXV label counting.
+* (Optional) CASB library​ for sample demultiplexing.
 * Endogenous RNA expression matrix​ for gene expression analysis.
 
 The pipeline performs quality control, barcode extraction, sample demultiplexing, and integrates all data into a Seurat object for downstream analysis.
@@ -187,11 +187,11 @@ seurat_obj <- NormalizeData(seurat_obj)
 ```
 
 # Data Availability
-Raw and processed data can be retrieved with the following links:
+Raw and processed data in the referred publication can be retrieved with the following links:
 * DISC-seq and CASB raw sequencing files: https://doi.org/10.17632/v9kdgw7nrh.2
 * Processed matrices of scRNA-seq data: https://doi.org/10.17632/yd3jfm2g3j.1    
 * Raw sequencing data of scRNA-seq: https://ngdc.cncb.ac.cn/gsa-human/, accession number HRA014683 and HRA016180
 
 # Reference
 * Hu Q, Wang Y, Zhao Y, Kong L, Tang X, Lin Q, Zhou Y, Wang Y, Wang H, Jiang H, Luo X, He J, Liu S, Hu Y. DISC-seq: deciphering cell stress heterogeneity through joint mapping of cellular damage and transcriptomic landscapes in scRNA-seq. *In revision*
-* Fang L, Li G, Sun Z, Zhu Q, Cui H, Li Y, Zhang J, Liang W, Wei W, Hu Y, Chen W. CASB: a concanavalin A-based sample barcoding strategy for single-cell sequencing. Mol Syst Biol. 2021 Apr;17(4):e10060. doi: 10.15252/msb.202010060IF: 7.7 Q1 . PMID: 33821571; PMCID: PMC8022202.
+* Fang L, Li G, Sun Z, Zhu Q, Cui H, Li Y, Zhang J, Liang W, Wei W, Hu Y, Chen W. CASB: a concanavalin A-based sample barcoding strategy for single-cell sequencing. Mol Syst Biol. 2021 Apr;17(4):e10060. doi: 10.15252/msb.202010060. PMCID: PMC8022202.
