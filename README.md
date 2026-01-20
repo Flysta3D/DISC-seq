@@ -2,11 +2,16 @@ DISC-seq Pipeline
 ========================
 Cell heterogeneity is a fundamental feature of biological systems, driving diverse responses to stimuli and stressors, including developmental cues, diseases, and drug treatments. While single-cell RNA sequencing (scRNA-seq) has revolutionized our ability to characterize this diversity by profiling gene expression at single cell levels, a critical gap remains in that it cannot directly link transcriptional profiles to functional cellular outcomes, such as stress-induced damage. To bridge this gap, we developed DISC-seq (Damage Identification in Single-Cell RNA sequencing), a method compatible with standard scRNA-seq workflows that simultaneously quantifies transcriptome-wide gene expression and evaluates the extent of cell damage at single-cell resolution. Applied to both cancer cell lines and clinical peripheral blood mononuclear cells (PBMCs) from pediatric hematology patients, DISC-seq uncovered key molecular pathways and gene expression determinants that govern heterogeneous treatment and stress responses. Our approach enables the systematic discovery of regulatory mechanisms underlying heterogeneous cellular stress sensitivity within and across cell types, providing a powerful tool for dissecting the molecular basis of cell heterogeneity.
 
-This repo contains essential scripts used for implementation of DISC-seq as well as codes to reproduce analysis results in the referred publication. We used MGI DNBelab C-series High-throughput Single-cell RNA Library Preparation Kit V3.0 for scRNA-seq library preparation and sequencing. With modification, these scripts can be applied for other conventional scRNA-seq libraries and sequencing data.
+This repo contains essential scripts used for implementation of DISC-seq as well as codes to reproduce analysis results in the referred publication. We used **MGI DNBelab C-series High-throughput Single-cell RNA Library Preparation Kit V3.0** for scRNA-seq library preparation and sequencing. With modification, these scripts can be applied for other conventional scRNA-seq libraries and sequencing data.
 
 <img width="3086" height="766" alt="image" src="https://github.com/user-attachments/assets/587e90c6-c9cf-448f-9038-39e137a6e961" />
 
-# Pipeline includes:
+## This repo includes:
+* **Figure code** for generating figures in the referred publication.
+* **Pipeline code** including **DISC-Seq Data Demultiplexing and Integration Pipeline**.
+* **Supplement** including example files such as _ANXV barcode reference_, _CASB barcode reference_, _config file example_ and _cellbarcode whitelist reference_.
+
+## Pipeline require these data:
 * ANXV (ANX5-labeled) library​ for ANXV label counting.
 * CASB library​ for sample demultiplexing.
 * Endogenous RNA expression matrix​ for gene expression analysis.
