@@ -4,6 +4,8 @@ Cell heterogeneity is a fundamental feature of biological systems, driving diver
 
 This repo contains essential scripts used for implementation of DISC-seq as well as codes to reproduce analysis results in the referred publication. We used **MGI DNBelab C-series High-throughput Single-cell RNA Library Preparation Kit V3.0** for scRNA-seq library preparation and sequencing. With modification, these scripts can be applied for other conventional scRNA-seq libraries and sequencing data.
 
+## DISC-seq Overview:
+
 <img width="3086" height="766" alt="image" src="https://github.com/user-attachments/assets/587e90c6-c9cf-448f-9038-39e137a6e961" />
 
 ## This repo includes:
