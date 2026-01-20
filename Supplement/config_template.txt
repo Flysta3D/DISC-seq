@@ -1,0 +1,48 @@
+# Sample demultiplexing configuration file
+# Please modify the paths and parameters as needed
+
+# ====== Input files path ======
+# ANXV library FASTQ files directory
+ANXV_LIB_DIR="/path/to/ANXV_library_fastq"
+
+# CASB library FASTQ files directory
+CASB_LIB_DIR="/path/to/CASB_library_fastq"
+
+# Single-cell RNA-seq matrix directory (Including matrix.mtx.gz, features.tsv.gz, barcodes.tsv.gz)
+RNA_MATRIX="/path/to/RNA_matrix"
+
+# Cell barcode whitelist file
+CB_WHITELIST="/path/to/scRNA_barcode_whitelist.txt"
+
+# Cell barcode translation file
+BARCODE_TRANSLATE="/path/to/barcodeTranslate.txt"
+
+# ANXV library barcode file
+ANXV_BARCODES="/path/to/anx5-barcodes.txt"
+
+# CASB library barcode file
+CASB_BARCODES="/path/to/CASB-barcodes.txt"
+
+# Script directory
+SCRIPT_DIR=""
+
+# ====== Output files path ======
+# Output directory
+OUTPUT_DIR="./results_$(date +%Y%m%d_%H%M%S)"
+
+# Log directory
+LOG_DIR="$OUTPUT_DIR/logs"
+
+# ====== Analysis parameters ======
+# HTODemux quantile threshold
+HTODEMUX_QUANTILE="0.99"
+
+# Thread number for parallel processing
+THREADS=8
+
+# Keep temporary files (true/false)
+KEEP_TEMP=false
+
+# Barcode mode (Regex)
+ANXV_FIX_SEQ_PATTERN="(?P<discard_1>CTACGATCCGACTTTCTGCG){s<=2}(?P<cell_1>.{10})(?P<discard_2>CCTTCC){s<=1}(?P<cell_2>.{10})(?P<discard_3>CGATG){s<=1}(?P<umi_1>.{10})TT.*"
+CASB_FIX_SEQ_PATTERN="(?P<discard_1>CTACGATCCGACTTTCTGCG){s<=2}(?P<cell_1>.{10})(?P<discard_2>CCTTCC){s<=1}(?P<cell_2>.{10})(?P<discard_3>CGATG){s<=1}(?P<umi_1>.{10})TT.*"
