@@ -9,7 +9,7 @@ This repo contains essential scripts used for implementation of DISC-seq as well
 <img width="3086" height="766" alt="image" src="https://github.com/user-attachments/assets/587e90c6-c9cf-448f-9038-39e137a6e961" />
 
 ## This repo includes:
-* **Figure_Code** for generating figures in the referred publication.
+* **Figure_Code** including codes for generating figures in the referred publication.
 * **Pipeline_Code** including **DISC-Seq Data Demultiplexing and Integration Pipeline**.
 * **Supplement** including example files such as _ANXV barcode reference_, _CASB barcode reference_, _config file example_ and _cellbarcode whitelist reference_.
 
