@@ -17,6 +17,7 @@ Supplement/
 ├── ANXV barcode reference: anx5-barcodes.txt
 ├── CASB barcode reference: CASB-barcode-example.txt
 ├── config file example: config_template.txt
+├── barcode translate file example: barcodeTranslate-example.txt
 └── cellbarcode whitelist reference: BGI_droplet_scRNA_readStructureV2_cDNA_T1-2.sort.zip (unzip before use).
 ```
 
