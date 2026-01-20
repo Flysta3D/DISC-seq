@@ -13,7 +13,7 @@ This repo contains essential scripts used for implementation of DISC-seq as well
 * **Pipeline code** including **DISC-Seq Data Demultiplexing and Integration Pipeline**.
 * **Supplement** including example files such as _ANXV barcode reference_, _CASB barcode reference_, _config file example_ and _cellbarcode whitelist reference_.
 
-## Pipeline require these data:
+## Pipeline requires these data:
 * ANXV (ANX5-labeled) library​ for ANXV label counting.
 * CASB library​ for sample demultiplexing.
 * Endogenous RNA expression matrix​ for gene expression analysis.
