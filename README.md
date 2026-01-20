@@ -11,7 +11,7 @@ This repo contains essential scripts used for implementation of DISC-seq as well
 ## This repo includes:
 * **Figure_Code** including codes for generating figures in the referred publication.
 * **Pipeline_Code** including **DISC-Seq Data Demultiplexing and Integration Pipeline**.
-* **Supplement** including example files such as _ANXV barcode reference_, _CASB barcode reference_, _config file example_ and _cellbarcode whitelist reference_.
+* **Supplement** including example files such as _ANXV barcode reference_, _CASB barcode reference_, _config file example_ and _cellbarcode whitelist reference_(BGI_droplet_scRNA_readStructureV2_cDNA_T1-2.sort.zip, unzip before use).
 
 ## Pipeline requires these data:
 * DISC-seq library​ for ANXV label counting.
