@@ -64,16 +64,11 @@ nano my_config.txt
 ```
 ## 4. Run the Pipeline
 ```Bash
-# Test run (dry run)
-bash ./DISC_pipeline.sh -c my_config.txt --dry-run
-
-# Full analysis
-bash ./DISC_pipeline.sh -c my_config.txt
-```
-#### Debug Mode
-Run with debug mode for detailed output:
-```Bash
+# Debug Mode
 bash ./DISC_pipeline.sh -c config.txt --debug
+
+# Normal Mode
+bash ./DISC_pipeline.sh -c my_config.txt
 ```
 
 # Input/Output
