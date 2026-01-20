@@ -47,7 +47,7 @@ install.packages(c("Seurat", "ggplot2", "data.table", "dplyr",
 ## 3. Configure the Pipeline
 ```Bash
 # Copy configuration template
-cp config_template.txt my_config.txt
+cp ../Supplement/config_template.txt my_config.txt
 
 # Edit configuration
 nano my_config.txt
