@@ -95,7 +95,7 @@ data/
 │   └── barcodes.tsv.gz
 ├── ...     # rna_matrix for other chips
 └── library reference/               # Library reference files
-    ├── Cellbarcode_whitelist.txt            # Cell barcode whitelist
+    ├── Cellbarcode_whitelist.txt    # Cell barcode whitelist
     ├── barcodeTranslate.txt         # Barcode translation table
     ├── anx5-barcodes.txt            # ANXV barcode list
     └── CASB-barcodes.txt            # CASB barcode list
